@@ -20,7 +20,7 @@ jobs:
 
       - name: Build backend
         run: npm run build
-        working-directory: ./backend
+        working-directory: ./Back-End
 
       - name: Start API server
         run: |
