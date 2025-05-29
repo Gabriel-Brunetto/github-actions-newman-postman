@@ -37,10 +37,29 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Inputando Dados",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-correlator",
+						"value": "consectetur deserunt consequat",
+						"description": "Correlation id for the different services"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Gabriel\"\r\n}"
+				},
+				"url": "http://localhost:4000/resource"
 			},
 			"response": []
 		}
