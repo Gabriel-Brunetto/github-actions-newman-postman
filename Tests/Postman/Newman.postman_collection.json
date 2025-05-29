@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "fc29fbfe-6c4d-4e55-8d07-add004a1e4e6",
+		"name": "Newman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "38249012"
+	},
+	"item": [
+		{
+			"name": "Capturando Dados",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-correlator",
+						"value": "consectetur deserunt consequat",
+						"description": "Correlation id for the different services"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": "http://localhost:4000/resource"
+			},
+			"response": []
+		}
+	]
+}
