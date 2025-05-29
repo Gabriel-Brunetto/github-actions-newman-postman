@@ -26,7 +26,7 @@ jobs:
         run: |
           nohup node server.js &
           sleep 5
-        working-directory: ./backend
+        working-directory: ./Back-End
 
       - name: Run API tests with Newman
         run: |
