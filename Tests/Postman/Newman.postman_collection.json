@@ -35,6 +35,14 @@
 				"url": "http://localhost:4000/resource"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
